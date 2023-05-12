@@ -1,0 +1,16 @@
+.idea/
+**/testdata/**
+*.bin
+**/node_modules/**
+*.log
+
+deployment/docker/web/
+deployment/docker/configs/
+deployment/docker/*.bin
+
+web/dist/
+robusta
+*.exe
+
+.realize/
+*.env.priv

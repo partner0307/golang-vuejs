@@ -1,0 +1,171 @@
+{
+    "nav": {
+        "home": "Home",
+        "blog": "Blog",
+        "challenges": "Challenges",
+        "resources": "Resources",
+        "about": "About",
+        "new_post": "New Post",
+        "profile": "Profile",
+        "sign_in": "Sign in",
+        "sign_out": "Sign out",
+        "latest_posts": "Latest Posts",
+        "list_challenges": "List Challenges",
+        "new_challenge": "New Challenge",
+        "manage_challenges": "Manage Challenge",
+        "policies": "Policies",
+        "users": "Users"
+    },
+    "gen": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "save": "Save",
+        "warning": "Warning",
+        "ok": "OK",
+        "cancel": "Cancel",
+        "run": "Run",
+        "preview": "Preview",
+        "delete_success": "Deleted successfully",
+        "create_success": "Created successfully",
+        "update_success": "Updated successfully",
+        "load_data_failed": "Failed to load data",
+        "posted_by": "Posted by",
+        "copied": "Copied to clipboard successfully",
+        "copy_failed": "Failed to copy",
+        "no_data": "No data found",
+        "loading": "Loading...",
+        "email": "Email",
+        "password": "Password"
+
+    },
+    "validation": {
+        "title_required": "Title is required",
+        "title_max_256": "Length should be less than 256 characters",
+        "email_required": "Email is required",
+        "email_invalid": "Please enter a valid email address",
+        "password_required": "Password is required",
+        "password_len_min": "Password length should be at least 5 characters",
+        "password_len_max": "Password length should be less than 25 characters"
+    },
+    "article": {
+        "delete_confirm": "This will delete this article permanently. Continue?"
+    },
+    "challenge": {
+        "title": "Title",
+        "code_sample": "Code sample",
+        "test": "Test",
+        "created_by": "Created By",
+        "created_at": "Created At",
+        "updated_at": "Updated At",
+        "type_to_search": "Type to search",
+        "delete_confirm": "This will delete this challenge permanently. Continue?",
+        "folder_no_challenges": "There is no challenge in this folder. Or you don't have permission",
+        "detail": "Detail",
+        "submissions": "Submissions",
+        "name": "Name",
+        "date": "Date",
+        "status": "Status",
+        "discussions": "Discussions",
+        "validation": {
+            "sample_required": "Sample is required",
+            "test_required": "Test is required"
+        }
+    },
+    "playground": {
+        "error": "Error",
+        "passed": "PASSED",
+        "failed": "FAILED",
+        "status": "Status",
+        "test_failed": "Test failed",
+        "runtime_error": "Error: Runtime error",
+        "warnings": "Warnings",
+        "program_exit": "Program exited.",
+        "tests_failed": "test(s) failed.",
+        "all_tests_passed": "All tests passed."
+    },
+    "comment": {
+        "comments": "Comments",
+        "placeholder": "Leave your comment",
+        "add": "Add Comment",
+        "login": "Login to Comment",
+        "reply": "Reply",
+        "update": "Update",
+        "delete_confirm": "This will delete this comment permanently. Continue?",
+        "validation": {
+            "required": "Please leave your comment"
+        }
+    },
+    "login": {
+        "info": "Sign in to get personalized story recommendations, follow authors and topics you love.",
+        "google": "Sign in with Google",
+        "register": "Don't have an account? Register here!",
+        "forgot_password": "Forgot password?",
+        "login_failed": "Invalid email or password"
+    },
+    "policy": {
+        "user_placeholder": "Select user",
+        "action_placeholder": "Select action",
+        "effect_placeholder": "Select effect",
+        "add_policy": "Add Policy",
+        "remove_policy": "Remove",
+        "user": "User",
+        "action": "Action",
+        "effect": "Effect",
+        "any_user": "All users",
+        "remove_success": "Removed policy successfully",
+        "remove_failed": "Failed to remove policy",
+        "add_success": "Added policy successfully",
+        "folder": {
+            "title": "Manage Folder Policies",
+            "folder_placeholder": "Select folder"    
+        },
+        "validation": {
+            "user_required": "Please select user",
+            "folder_required": "Please select folder",
+            "action_required": "Please select action",
+            "effect_required": "Please select effect"
+        }
+    },
+    "resource": {
+        "articles": "Articles",
+        "books": "Books",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced",
+        "beginner": "Beginner"
+    },
+    "user": {
+        "email": "Email",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "password": "Password",
+        "password_confirm": "Enter password again",
+        "password_not_match": "Password doesn't match",
+        "forgot_password": {
+            "title": "Forgot Password",
+            "info": "Please enter the email that you registered below for resetting password.",
+            "submit": "Submit",
+            "success_message": "Reset Password request has been sent to your email. Please check.",
+            "failed_message": "There were some error during send request for resetting password"
+        },
+        "registration": {
+            "title": "Create a new account",
+            "info": "It's quick and easy.",
+            "register": "Register",
+            "success_message": "Account has been created. Go ahead to login!",
+            "failed_message": "There were some error during the registration"
+        },
+        "reset_password": {
+            "title": "Reset Password",
+            "reset": "Reset",
+            "invalid_token": "Invalid token",
+            "link_to_forgot_password": "Click <a href=\"/users/forgot-password\" style=\"color:red\">here</a> to request a new reset password link if the current link doesn't work or already expired.",
+            "success_message": "Password has been reset successfully. Please try to login with the new password.",
+            "failed_message": "There were some error during resetting password"
+        }
+    },
+    "server": {
+        "1004": "Internal server error",
+        "1100": "You are not authorized to access this resource",
+        "1200": "Invalid email or password"
+    }
+}

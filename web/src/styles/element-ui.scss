@@ -1,0 +1,90 @@
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "element-ui-variables.scss";
+@import "~element-ui/packages/theme-chalk/src/index";
+@import "~element-ui/packages/theme-chalk/src/display";
+
+.el-dialog__headerbtn {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  padding: 0;
+  font-size: 16px;
+  z-index: 9999;
+  i {
+    &:before {
+      color: $--color-danger;
+      font-weight: bold;
+      border: 1px solid $--color-danger;
+    }
+  }
+}
+
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.el-dialog--center .el-dialog__body {
+  padding: 20px 20px;
+}
+
+.el-menu--horizontal, .el-menu--horizontal > .el-menu-item {
+  height: 48px;
+  line-height: 48px;
+}
+
+.el-menu {
+  top: 0px;
+  overflow: hidden;
+}
+
+.menu-item-bold {
+  font-weight: 550;
+}
+
+.el-alert {
+  font-family: 'Open Sans', sans-serif;
+  padding: 8px 8px;
+  .el-alert__description {
+    font-size: 0.95em;
+    font-style: italic;
+  }
+}
+
+.el-alert__title {
+  font-size: 1.1em;
+}
+
+.el-card:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.el-card__body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .el-message-box {
+    width: 95%;
+    vertical-align: baseline;
+  }
+}
+
+.el-loading-spinner .circular {
+  height: 30px;
+  width: 30px;
+  -webkit-animation: loading-rotate 2s linear infinite;
+  animation: loading-rotate 2s linear infinite;
+}
+
+.el-card {
+  background-color: $cardBackgroundColorInfo;
+}

@@ -1,0 +1,53 @@
+$backgroundColorPrimary: #EBEEF7;
+$backgroundColorSecondary: #EBEEF7;
+$backgroundColorInfo: white;
+
+$btnFontWeight: 600;
+
+$headerTextColor: white;
+$headerActiveTextColor: #51AEE7;
+$headerBackgroundColor: #666666;
+
+$sideBarTextColor: white;
+$sideBarActiveTextColor: #51AEE7;
+$sideBarBackgroundColor: #666666;
+
+$cardBackgroundColorInfo: white;
+
+$fontColorHeading: #242729;
+$fontColorContent: #242729;
+$fontColorInfo: #666666;
+$fontColorInfoHover: #CE662F;
+
+$logoColor1: #51AEE7;
+$logoColor2: white;
+$logoColor3: #666666;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  backgroundColorPrimary: $backgroundColorPrimary;
+  backgroundColorSecondary: $backgroundColorSecondary;
+  backgroundColorInfo: $backgroundColorInfo;
+
+  btnFontWeight: $btnFontWeight;
+
+  headerTextColor: $headerTextColor;
+  headerActiveTextColor: $headerActiveTextColor;
+  headerBackgroundColor: $headerBackgroundColor;
+
+  sideBarTextColor: $sideBarTextColor;
+  sideBarActiveTextColor: $sideBarActiveTextColor;
+  sideBarBackgroundColor: $sideBarBackgroundColor;
+
+  cardBackgroundColorInfo: $cardBackgroundColorInfo;
+
+  fontColorHeading: $fontColorHeading;
+  fontColorContent: $fontColorContent;
+  fontColorInfo: $fontColorInfo;
+  fontColorInfoHover: $fontColorInfoHover;
+
+  logoColor1: $logoColor1;
+  logoColor2: $logoColor2;
+  logoColor3: $logoColor3;
+}
