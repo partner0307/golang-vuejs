@@ -6,6 +6,8 @@ This project follows [golang-standards/project-layout](https://github.com/golang
 
 **Note** that this project now is no longer in active development, but feel free to make pull request.
 
+<a href="https://app.daily.dev/ItamiWorld"><img src="https://api.daily.dev/devcards/dab7f860f7394fc0803744e36b99fc39.png?r=n4c" width="200" align='right' alt="Tadao Minami's Dev Card"/></a>
+
 ## Prerequisites
 
 Make sure you have the development environment matches with these notes below so we can mitigate any problems of version mismatch.
